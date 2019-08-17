@@ -35,7 +35,8 @@ for (root, dirs, files) in walkdir("./NII")
         n = ""
         
         while n != "s"
-            # l - left, r - right, s - save
+            # o - original, l - left, r - right, s - save
+            
             println("\n\t Enter command (o / l / r / s)")
             n = readline()
             if n == "l"
